@@ -1,0 +1,16 @@
+{
+  "name": "fizzbuzz_babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "babel": "babel --presets es2015 fizzbuzz.js -o build/main.bundle.js",
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1"
+  }
+}
